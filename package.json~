@@ -1,12 +1,12 @@
 {
     "name": "quot-express",
-    "version": "0.0.1-1",
+    "version": "0.0.1",
     "private": true,
     "dependencies": {
         "express": "2.5.8",
         "jade": ">= 0.0.1"
     },
-    "subdomain": "quot-exp",
+    "subdomain": "cxnvcarol",
     "scripts": {
         "start": "node app.js"
     },
