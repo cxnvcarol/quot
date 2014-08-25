@@ -137,9 +137,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #f6bf01;
+    border-color: #800000;
     color: #fff;
-    background-color: #fec503;
+    background-color: #800000;
 }
 
 .btn-xl:active,
@@ -268,7 +268,7 @@ header {
     text-align: center;
     color: #700;
     background-attachment: scroll;
-    background-image: url(../img/joker-header.png);
+    background-image: url(../img/joker-header.jpg);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -877,4 +877,17 @@ body {
     font-size: 24px!important;
     font-style: italic;
 
+}
+
+.timeline-image img{
+    height: 100%!important;
+
+}
+
+#expp{
+    margin-bottom: 80px;
+}
+
+.contactoTel{
+    color: #fff!important;
 }
