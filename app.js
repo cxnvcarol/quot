@@ -74,8 +74,8 @@ app.post('/contact_me', function(req, res) {
     console.log(req.body);
     var mailOptions = {
         from: req.body.name+' ✔ <'+req.email+'>', // sender address
-        to: 'quot@outlook.es', // list of receivers
-        subject: 'Mensaje quot.jit.su', // Subject line
+        to: 'quot@outlook.es, '+req.email, // list of receivers
+        subject: 'Copia mensaje Quot', // Subject line
         //text: 'Aquí vamos' // plaintext body
         //html: JSON.stringify(req.body)
         html: '<b>Nombre:</b> '+req.body.name+'<br/><b>Teléfono: </b>'+req.body.phone+'<br/><b>Email:</b> '+req.body.email+'<br/><br/>'+req.body.message
