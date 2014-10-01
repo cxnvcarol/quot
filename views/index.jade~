@@ -1,0 +1,470 @@
+include mixin-lorem-ipsum.jade
+#page-top.index
+//
+   Navigation
+nav.navbar.navbar-default.navbar-fixed-top
+  .container
+    //
+       Brand and toggle get grouped for better mobile display
+    .navbar-header.page-scroll
+      button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand.page-scroll(href='#page-top')
+          img(src="img/logos/logo_title.png",height=90,alt="QUOT")
+        //
+            Quot
+    //
+       Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li.hidden
+          a(href='#page-top')
+        li
+          a.page-scroll(href='#about') QUOT
+        li
+          a.page-scroll(href='#portfolio') Qué ofrecemos
+        li
+          a.page-scroll(href='#team') Equipo
+        li
+          a.page-scroll(href='#contact') Contáctanos
+    //
+       /.navbar-collapse
+  //
+     /.container-fluid
+//
+   Header
+header
+  .container
+    .intro-text
+        //Welcome To Our Studio!
+        .intro-lead-in Explora tus sentidos...
+        .intro-heading Bienvenidos!
+
+
+      //a.page-scroll.btn.btn-xl(href='#services') Tell Me More
+//
+    About Section
+section#about
+    .container
+        .row
+            .col-lg-12.text-center
+                h2.section-heading Sobre Quot
+                //h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+        .row
+            .col-lg-12
+                ul.timeline
+                    li
+                        .timeline-image
+                            img.img-circle.img-responsive(src='img/about/Braille-blue.jpg', alt='')
+                        .timeline-panel
+                            //.timeline-heading
+                                h4 Por esto trabajamos
+                                h4.subheading cada día
+                                p.text-muted
+                                    | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!
+                            .timeline-heading
+                                h4 Quienes somos
+                                p.text-muted
+                                    | Quot es una organización autónoma, independiente e innovadora que presta el servicio de impresión o grabado en alto relieve de calidad.
+                    li.timeline-inverted
+                        .timeline-image
+                            img.img-circle.img-responsive(src='img/about/tablet-braille.jpg', alt='')
+                        .timeline-panel
+                            .timeline-heading
+                                h4 Cómo nos vemos
+                                //h4.subheading en un tiempo
+                            .timeline-body
+                                p.text-muted
+                                    | Para el año 2017 Quot busca posicionarse como líder en el mercado de la impresión Braille en Colombia, sentando bases de calidad para fomentar el desarrollo de este segmento de la sociedad.
+                    li.timeline-inverted
+                        .timeline-image
+                            h4
+                                | HAZ PARTE
+                                br
+                                | DE NUESTRA
+                                br
+                                | HISTORIA!
+   Portfolio
+    //
+       Grid Section
+section#portfolio.bg-light-gray
+  .container
+    .row
+      .col-lg-12.text-center
+        h2#expp.section-heading Experiencias en relieve
+          //Impresión en relieve
+        h3.section-subheading.text-muted.quotPortafolio Nuestro servicio de impresión en relieve, único de su tipo en Colombia, se destaca por su alta calidad gracias a nuestra novedosa tecnología. Imprimimos sobre diferentes superficies sin restricción de formas o tamaños.
+        h3.section-subheading.text-muted.quotPortafolio Ofrecemos nuestros servicios para la industria litográfica, manufacturera, farmacéutica y de materiales, entre otros.
+        //h3.section-subheading.text-muted.quotPortafolio En Quot creemos en el acceso a la cultura y la información para todos y todas, por eso nuestro principal enfoque está dedicado a personas con discapacidad visual, para quienes creamos productos braille de excelente calidad.
+
+
+    //.row
+      .col-md-4.col-sm-6.portfolio-item
+        a.portfolio-link(href='#portfolioModal1', data-toggle='modal')
+          .portfolio-hover
+            .portfolio-hover-content
+              i.fa.fa-plus.fa-3x
+          img.img-responsive(src='img/portfolio/roundicons.png', alt='')
+        .portfolio-caption
+          h4 Round Icons
+          p.text-muted Graphic Design
+      .col-md-4.col-sm-6.portfolio-item
+        a.portfolio-link(href='#portfolioModal2', data-toggle='modal')
+          .portfolio-hover
+            .portfolio-hover-content
+              i.fa.fa-plus.fa-3x
+          img.img-responsive(src='img/portfolio/startup-framework.png', alt='')
+        .portfolio-caption
+          h4 Startup Framework
+          p.text-muted Website Design
+      .col-md-4.col-sm-6.portfolio-item
+        a.portfolio-link(href='#portfolioModal3', data-toggle='modal')
+          .portfolio-hover
+            .portfolio-hover-content
+              i.fa.fa-plus.fa-3x
+          img.img-responsive(src='img/portfolio/treehouse.png', alt='')
+        .portfolio-caption
+          h4 Treehouse
+          p.text-muted Website Design
+      .col-md-4.col-sm-6.portfolio-item
+        a.portfolio-link(href='#portfolioModal4', data-toggle='modal')
+          .portfolio-hover
+            .portfolio-hover-content
+              i.fa.fa-plus.fa-3x
+          img.img-responsive(src='img/portfolio/golden.png', alt='')
+        .portfolio-caption
+          h4 Golden
+          p.text-muted Website Design
+      .col-md-4.col-sm-6.portfolio-item
+        a.portfolio-link(href='#portfolioModal5', data-toggle='modal')
+          .portfolio-hover
+            .portfolio-hover-content
+              i.fa.fa-plus.fa-3x
+          img.img-responsive(src='img/portfolio/escape.png', alt='')
+        .portfolio-caption
+          h4 Escape
+           p.text-muted Website Design
+      .col-md-4.col-sm-6.portfolio-item
+        a.portfolio-link(href='#portfolioModal6', data-toggle='modal')
+          .portfolio-hover
+            .portfolio-hover-content
+              i.fa.fa-plus.fa-3x
+          img.img-responsive(src='img/portfolio/dreams.png', alt='')
+        .portfolio-caption
+          h4 Dreams
+          p.text-muted Website Design
+//
+
+//
+   Team Section
+section#team.bg-light-gray
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading Nuestro gran equipo
+        h3.section-subheading.text-muted
+            //Lorem ipsum dolor sit amet consectetur.
+    .row
+      .col-sm-4
+        .team-member
+          img.img-responsive.img-circle(src='img/team/daniel.jpg', alt='')
+          h4 Daniel Gómez
+          p.text-muted Diseño y planeación de operaciones
+          //ul.list-inline.social-buttons
+            li
+              a(href='#')
+                i.fa.fa-twitter
+            li
+              a(href='#')
+                i.fa.fa-facebook
+            li
+              a(href='#')
+                i.fa.fa-linkedin
+      .col-sm-4
+        .team-member
+          img.img-responsive.img-circle(src='img/team/paula.jpg', alt='')
+          h4 Paula Triana
+          p.text-muted La de los negocios
+      .col-sm-4
+        .team-member
+          img.img-responsive.img-circle(src='img/team/godoy.jpg', alt='')
+          h4 Juan David Godoy
+          p.text-muted Diseño y planeación de operaciones
+    .row
+      .col-sm-4
+        .team-member
+          img.img-responsive.img-circle(src='img/team/angie.jpg', alt='')
+          h4 Angie Henriquez
+          p.text-muted Diseñadora
+      .col-sm-4
+        .team-member
+              img.img-responsive.img-circle(src='img/team/gamarra.jpg', alt='')
+              h4 Jorge Gamarra
+              p.text-muted Químico
+      .col-sm-4
+        .team-member
+            img.img-responsive.img-circle(src='img/team/carol.jpg', alt='')
+            h4 Carol Naranjo
+            p.text-muted Tecnologías de información
+    .row
+      .col-lg-8.col-lg-offset-2.text-center
+        p.large.text-muted.premisaEquipo
+          | Trabajamos cada día para ofrecer mejores servicios, la innovación y las ideas son nuestra premisa.
+//
+   Clients Aside
+//aside.clients
+  .container
+    .row
+      .col-md-3.col-sm-6
+        a(href='#')
+          img.img-responsive.img-centered(src='img/logos/envato.jpg', alt='')
+      .col-md-3.col-sm-6
+        a(href='#')
+          img.img-responsive.img-centered(src='img/logos/designmodo.jpg', alt='')
+      .col-md-3.col-sm-6
+        a(href='#')
+          img.img-responsive.img-centered(src='img/logos/themeforest.jpg', alt='')
+      .col-md-3.col-sm-6
+        a(href='#')
+          img.img-responsive.img-centered(src='img/logos/creative-market.jpg', alt='')
+section#contact
+  .container
+    .row
+      .col-lg-12.text-center
+        h2.section-heading Contáctanos
+        h3.section-subheading.text-muted.contactoTel Llámanos al 3174042401 ó al 3192996873, o escríbenos...
+    .row
+      .col-lg-12
+        form#contactForm(name='sentMessage', novalidate='novalidate')
+          //, onsubmit='sendMessage()')
+          .row
+            .col-md-6
+              .form-group
+                input#name.form-control(type='text', placeholder='Nombre *', required='required', data-validation-required-message='Please enter your name.')
+                p.help-block.text-danger
+              .form-group
+                input#email.form-control(type='email', placeholder='Email *', required='required', data-validation-required-message='Please enter your email address.')
+                p.help-block.text-danger
+              .form-group
+                input#phone.form-control(type='tel', placeholder='Teléfono *', required='required', data-validation-required-message='Please enter your phone number.')
+                p.help-block.text-danger
+            .col-md-6
+              .form-group
+                textarea#message.form-control(placeholder='Tu mensaje *', required='required', data-validation-required-message='Please enter a message.')
+                p.help-block.text-danger
+            .clearfix
+            .col-lg-12.text-center
+              #success
+              button.btn.btn-xl(type='submit') Enviar mensaje
+footer
+  .container
+    .row
+      .col-md-4
+        span.copyright Copyright © Quot 2014
+      .col-md-4
+        ul.list-inline.social-buttons
+          li
+            a(href='#')
+              i.fa.fa-twitter
+          li
+            a(href='#')
+              i.fa.fa-facebook
+          li
+            a(href='#')
+              i.fa.fa-linkedin
+      .col-md-4
+        ul.list-inline.quicklinks
+          li
+            a(href='#') Privacy Policy
+          li
+            a(href='#') Terms of Use
+//
+   Portfolio Modals
+//
+   Use the modals below to showcase details about your portfolio projects!
+//
+   Portfolio Modal 1
+//#portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            //
+               Project Details Go Here
+            h2 Quot
+            p.item-intro.text-muted Explora tus sentidos
+            img.img-responsive(src='img/portfolio/roundicons-free.png', alt='')
+            p
+              | Quot, explora tus sentidos.
+            p
+              strong Want these icons in this portfolio item sample?
+              | You can download 60 of them for free, courtesy of
+              a(href='https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc') RoundIcons.com
+              | , or you can purchase the 1500 icon set
+              a(href='https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc') here
+              | .
+            ul.list-inline
+              li Date: July 2014
+              li Client: Round Icons
+              li Category: Graphic Design
+            button.btn.btn-primary(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              | Close Project
+//
+   Portfolio Modal 2
+//#portfolioModal2.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            h2 Project Heading
+            p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+            img.img-responsive.img-centered(src='img/portfolio/startup-framework-preview.png', alt='')
+            p
+              a(href='http://designmodo.com/startup/?u=787') Startup Framework
+              | is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.
+            p
+              | You can preview Startup Framework
+              a(href='http://designmodo.com/startup/?u=787') here
+              | .
+            button.btn.btn-primary(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              | Close Project
+//
+   Portfolio Modal 3
+//#portfolioModal3.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            //
+               Project Details Go Here
+            h2 Project Name
+            p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+            img.img-responsive.img-centered(src='img/portfolio/treehouse-preview.png', alt='')
+            p
+              | Treehouse is a free PSD web template built by
+              a(href='https://www.behance.net/MathavanJaya') Mathavan Jaya
+              | . This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.
+            p
+              | You can download the PSD template in this portfolio sample item at
+              a(href='http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/') FreebiesXpress.com
+              | .
+            button.btn.btn-primary(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              | Close Project
+//
+   Portfolio Modal 4
+//#portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            //
+               Project Details Go Here
+            h2 Project Name
+            p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+            img.img-responsive.img-centered(src='img/portfolio/golden-preview.png', alt='')
+            p
+              | Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by
+              a(href='https://www.behance.net/MathavanJaya') Mathavan Jaya
+              | . Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.
+            p
+              | You can download the PSD template in this portfolio sample item at
+              a(href='http://freebiesxpress.com/gallery/golden-free-one-page-web-template/') FreebiesXpress.com
+              | .
+            button.btn.btn-primary(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              | Close Project
+//
+   Portfolio Modal 5
+//#portfolioModal5.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            //
+               Project Details Go Here
+            h2 Project Name
+            p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+            img.img-responsive.img-centered(src='img/portfolio/escape-preview.png', alt='')
+            p
+              | Escape is a free PSD web template built by
+              a(href='https://www.behance.net/MathavanJaya') Mathavan Jaya
+              | . Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.
+            p
+              | You can download the PSD template in this portfolio sample item at
+              a(href='http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/') FreebiesXpress.com
+              | .
+            button.btn.btn-primary(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              | Close Project
+//
+   Portfolio Modal 6
+//#portfolioModal6.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+  .modal-content
+    .close-modal(data-dismiss='modal')
+      .lr
+        .rl
+    .container
+      .row
+        .col-lg-8.col-lg-offset-2
+          .modal-body
+            //
+               Project Details Go Her
+            h2 Project Name
+            p.item-intro.text-muted Lorem ipsum dolor sit amet consectetur.
+            img.img-responsive.img-centered(src='img/portfolio/dreams-preview.png', alt='')
+            p
+              | Dreams is a free PSD web template built by
+              a(href='https://www.behance.net/MathavanJaya') Mathavan Jaya
+              | . Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.
+            p
+              | You can download the PSD template in this portfolio sample item at
+              a(href='http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/') FreebiesXpress.com
+              | .
+            button.btn.btn-primary(type='button', data-dismiss='modal')
+              i.fa.fa-times
+              | Close Project
+//
+   jQuery Version 1.11.0
+script(src='js/jquery-1.11.0.js')
+//
+   Bootstrap Core JavaScript
+script(src='js/bootstrap.min.js')
+//
+   Plugin JavaScript
+script(src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js')
+script(src='js/classie.js')
+script(src='js/cbpAnimatedHeader.js')
+//
+   Contact Form JavaScript
+script(src='js/jqBootstrapValidation.js')
+script(src='js/contact_me.js')
+//
+   Custom Theme JavaScript
+script(src='js/agency.js')
+

@@ -29,6 +29,8 @@ app.configure('production', function(){
   app.use(express.errorHandler());
 });
 
+//Que desorden!
+
 //Additional functions
 
 
@@ -72,9 +74,11 @@ app.get('/contact_me', routes.index);
 
 app.post('/contact_me', function(req, res) {
     console.log(req.body);
+    var destination='quot@outlook.es, '+req.body.email;
+    console.log('dest: '+destination);
     var mailOptions = {
-        from: req.body.name+' ✔ <'+req.email+'>', // sender address
-        to: 'quot@outlook.es, '+req.email, // list of receivers
+        from: req.body.name+' ✔ <'+req.body.email+'>', // sender address
+        to: destination, // list of receivers
         subject: 'Copia mensaje Quot', // Subject line
         //text: 'Aquí vamos' // plaintext body
         //html: JSON.stringify(req.body)
