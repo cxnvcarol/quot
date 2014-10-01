@@ -1,4 +1,4 @@
 quot
 ====
 
-quot web pare
+quot web page
